@@ -1,115 +1,147 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="descripition" content="Fonte de informações para saúde sexual feminina"/>
-    <title>Oráculo</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="descripition" content="Fonte de informações para saúde sexual feminina" />
+  <title>Oráculo</title>
+  <link rel="stylesheet" href="style2.css">
+  <!--<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
 </head>
+
 <body>
-    
-    <header class="cabecalho">
-        <div class="alinha">
-            <nav class="cabecalho-menu">
-                <div id="menu">
-                    <li><a href="" class="item-menu">Home</a></li>
-                    <li><a href="" class="item-menu">Blog</a></li>
-                    <li><a href="" class="item-menu">Sobre nós</a></li>
+  <div class="conteiner-fluid">
+    <div class="img-fluid">
+      <header class="cabecalho">
+        <div class="conteiner">
+
+          <nav class="navbar navbar-expand-lg navbar-dark">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+              aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+
+              <ul class="navbar-nav mr-auto">
+                <div class="cabecalho-menu">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+
+
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Sobre nós</a>
+                  </li>
                 </div>
-                <div id="redes-sociais">
-                    <a href=""><img class="item-redes" src="001-facebook.svg" alt="facebook"></a>
-                    <a href=""><img class="item-redes" src="003-twitter.svg" alt="twitter"></a>
-                    <a href=""><img class="item-redes" src="004-instagram.svg" alt="instagram"></a>
-                </div>
+              </ul>
 
-            </nav>
-            <div class="conteiner">
-                <div class="estatico"> Saúde</div>
-                <ul class="dinamico">
-                    <li><span>Feminina</span></li>
-                    <li><span>Sexual</span></li>
-                    <li><span>Feminina</span></li>
-                    <li><span>Sexual</span></li>
-
-
-                </ul>
+              <div id="redes-sociais">
+                <a class="nav-item" href=""><img class="item-redes" src="001-facebook.svg" alt="facebook"></a>
+                <a class="nav-item" href=""><img class="item-redes" src="003-twitter.svg" alt="twitter"></a>
+                <a class="nav-item" href=""><img class="item-redes" src="004-instagram.svg" alt="instagram"></a>
+              </div>
             </div>
+          </nav>
+          <div class="conteiner-palavra row espaco" style="max-width:75rem;">
+            <div class="estatico col-lg-2"> Saúde</div>
+            <ul class="dinamico col-lg-3">
+              <li><span>Feminina</span></li>
+              <li><span>Sexual</span></li>
+              <li><span>Feminina</span></li>
+              <li><span>Sexual</span></li>
+            </ul>
+          </div>
 
-            <div class="texto">
-                <h3 class="texto-cuide"> Cuide-se, você é a pessoa<br> mais importante da sua vida</h3>
-                
-            </div>
-            <div class="texto2">
-                <h3 class="texto-converte"> <strong> Fique por dentro da sua saúde </strong></h3>
-            </div>
+          <div class="texto row espaco espaco-direita" style="max-width:75rem;">
+            <h3 class="texto-cuide">  <b>Cuide-se, você é a pessoa<br> mais importante da sua vida </b> </h3>
 
-            <div id="email">
-                <input class="input-email" type="text" placeholder="email" >
-                <button class="botao-comecar">Começar</button>
+          </div>
+          <div class="texto2 row espaco espaco-direita" style="max-width:75rem;">
+            <h3 class="texto-converte"> <strong> Fique por dentro da sua saúde </strong></h3>
+          </div>
+
+          <div class="input-group mb-3 row espaco " style="max-width:39rem;">
+            <input type="text" class="form-control" placeholder="email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <div class="input-group-append row espaco-direita ">
+              <button class="btn  botao-comecar" type="button">Começar</button>
             </div>
+          </div>
         </div>
-    </header>
-    
-    <main>
-        <div id="oraculo">
-            <div class="textos">
+      </header>
+
+      <main>
+          <div class="oraculo row espaco espaco-direita" style="max-width:85rem;" >
+            <div class="textos col-lg-4 " style="max-width:30rem;" >
                 <p class="texto-simples">Seu <b class="texto-chamativo"> Oráculo </b> em forma de site</p> 
                 <p class="paragrafo"><strong> Aqui informação é poder e <br> autoconhecimento!</strong></p>
             </div>
-            <img class="oraculo-imagem" src="pexels-carolina-pedrosa-6760114 1.svg" alt="mao">
-        </div>
-        
-        <div id="preservativos">
-           <!-- <h3 class="texto-preservativo">Tudo o que você precisa saber <br> sobre preservativos</h3>-->
-            <img class="imagem-preservativo" src="preservativo.svg" alt="preservativo">
-            <h3 class="texto-preservativo">Tudo o que você precisa saber <br> sobre métodos contraceptivos</h3>
-            <div class="botao-saiba-mais">
-                <button class="botao-preservativo"> <b>Saiba mais</b> </button>
-            </div>
+            <img class="oraculo-imagem img-fluid col-lg-2" style="max-width:30rem;" src="pexels-carolina-pedrosa-6760114 1.svg" alt="mao">
         </div>
 
-        <div id="se-toca">
-            
-                <h2 class="titulo-se-toca">Se toca garota!!</h2>
-                <img class="imagem-se-toca" src="flor.svg" alt="flor">
-                <p class="texto-se-toca">A masturbação aproxima a mulher de si mesma. <br>
-                    Alivia o estresse e tensões <br>
-                    Diminui as cólicas da TPM <br>
-                    Previne infecções <br>
-                    Traz liberdade para expressar seus desejos e curiosidades.</p>
-                    <button id="botao-leia-mais">Leia mais</button>
-           
-        </div>
-        
-        <div id="IST">
-            <h2 class="titulo-ist"> Infexões <br> Sexualmente <br> Transmissíveis (IST) </h2>
-            <p class="texto-ist-explicativo"> <b>São causadas por vírus, bactérias ou outros  <br>
-                microrganismos. Elas são transmitidas,  <br>
-                principalmente, por meio do contatosexual <br>
-                (oral, vaginal, anal) sem o uso de camisinha <br>
-                masculina ou feminina, com uma pessoa que <br>
-                esteja infectada. <br>
-                </b> 
-            </p>
-            <div class="caixinha-ist">
-                <p class="caixa-ist"><b class="titulo-doencas">HIV</b> <br> <em class="texto-doenca"> A AIDS é causada pelo vírus HIV, que interfere na capacidade do organismo de combater infecções.</em> <a href="" class="botao-saiba-mais-doenca">Saiba mais</a> </p>
-                <p class="caixa-ist"><b class="titulo-doencas">Gonorreia </b> <br> <em class="texto-doenca"> Infecção bacteriana sexualmente transmissível que, se não for tratada, pode causar infertilidade. </em> <a href="" class="botao-saiba-mais-doenca">Saiba mais</a></p>
+       <div id="preservativos" class="row" style="max-width:85.1rem;">
+           <img class="imagem-preservativo img-fluid col-lg-5.5 " src="preservativo.svg" alt="preservativo">
+           <div class="alinha col-5 " style="max-height: 30rem;">
+              <h3 class="texto-preservativo " > <b> Tudo o que você precisa saber <br> sobre métodos contraceptivos</b></h3>
+               <button class=" btn botao-preservativo " type="button"> <b>Saiba mais</b> </button>
             </div>
-            <div class="caixinha-ist">
-                <p class="caixa-ist"><b class="titulo-doencas">Clamídia</b> <br> <em class="texto-doenca"> Uma doença comum e sexualmente transmissível que pode não apresentar sintomas.</em> <a href="" class="botao-saiba-mais-doenca">Saiba mais</a></p>
-                <p class="caixa-ist"><b class="titulo-doencas">Vírus do papiloma humano </b> <br> <em class="texto-doenca"> Infecção que causa verrugas em diversas partes do corpo, dependendo do tipo do vírus.</em> <a href="" class="botao-saiba-mais-doenca">Saiba mais</a></p>
+       </div>
+
+       <div id="se-toca"  > 
+          <h2 class="titulo-se-toca">Se toca garota!!</h2>
+           <div class="alinha-imagem-texto row " style="max-width:85.1rem;">
+              <p class="texto-se-toca col  col-lg-4">A masturbação aproxima a mulher de si mesma. <br>
+                  Alivia o estresse e tensões <br>
+                  Diminui as cólicas da TPM <br>
+                  Previne infecções <br>
+                  Traz liberdade para expressar seus desejos e curiosidades.</p>
+                  <img class="imagem-se-toca img-fluid col-lg-5 " src="flor.svg" alt="flor">
             </div>
             
         </div>
+        <button id="botao-leia-mais" class="row btn ">Leia mais</button>
 
-        <div id="sobre-nos">
-            <div class="topo-sobre-nos">
-                <h2 class="titulo-sobre-nos">Sobre nós</h2>
-                <img class="elipse-branca" src="Ellipse8.svg" alt="Ellipse">
-                <img class="elipse-colorida" src="Ellipse9.svg" alt="Ellipse">
+          <div id="IST" class="row" style="max-width:85.1rem;">
+            <div class="col-lg-5">
+              <h2 class="titulo-ist espaco"> Infexões <br> Sexualmente <br> Transmissíveis (IST) </h2>
+              
+              <p class="texto-ist-explicativo espaco"> <b>São causadas por vírus, bactérias ou outros  <br>
+                  microrganismos. Elas são transmitidas,  <br>
+                  principalmente, por meio do contatosexual <br>
+                  (oral, vaginal, anal) sem o uso de camisinha <br>
+                  masculina ou feminina, com uma pessoa que <br>
+                  esteja infectada. <br>
+                  </b> 
+              </p>
             </div>
+            <div class="col">
+              <div class="caixinha-ist row">
+                  <p class="caixa-ist "><b class="titulo-doencas">HIV</b> <br> <em class="texto-doenca"> A AIDS é causada pelo vírus HIV, que interfere na capacidade do organismo de combater infecções.</em> <a href="" class="botao-saiba-mais-doenca">Saiba mais</a> </p>
+                  <p class="caixa-ist"><b class="titulo-doencas">Gonorreia </b> <br> <em class="texto-doenca"> Infecção bacteriana sexualmente transmissível que, se não for tratada, pode causar infertilidade. </em> <a href="" class="botao-saiba-mais-doenca">Saiba mais</a></p>
+              </div>
+              <div class="caixinha-ist row">
+                  <p class="caixa-ist"><b class="titulo-doencas">Clamídia</b> <br> <em class="texto-doenca"> Uma doença comum e sexualmente transmissível que pode não apresentar sintomas.</em> <a href="" class="botao-saiba-mais-doenca">Saiba mais</a></p>
+                  <p class="caixa-ist"><b class="titulo-doencas">HPV</b> <br> <em class="texto-doenca"> Vírus do papiloma humano, infecção que causa verrugas em diversas partes do corpo, dependendo do tipo do vírus.</em> <a href="" class="botao-saiba-mais-doenca">Saiba mais</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div id="sobre-nos">
+            <div class="topo-sobre-nos" >
+                <img class="elipse-branca img-fluid" src="Ellipse8.svg" alt="Ellipse">
+                <img class="elipse-colorida img-fluid" src="Ellipse9.svg" alt="Ellipse">
+            </div>
+            <h2 class="titulo-sobre-nos"> <b> Sobre nós </b></h2>
             <p class="texto-sobre-nos">
+              
                <b> Somos Oráculo, uma famtech voltada para a saúde e o bem-estar feminino. 
                 Visamos o autocuidado ao  levar informações e conhecimento,
                 sobre a saúde menstrual, pélvica e sexual, além da fertilidade,
@@ -118,41 +150,47 @@
                 a se cuidar cada vez melhor.</b>
             </p>
             <div class="base-sobre-nos">
-                <img src="aspas.svg" alt="aspas">
+                <img class="img-fluid imagem-aspas" src="aspas.svg" alt="aspas">
                 <p class="frase-de-efeito"> <b> Conhecimento é poder! </b> </p>
-            
-                
             </div>
         </div>
-    </main>
+     </main>
 
-    <footer class="footer">
-        <div class="formatar">
-            <div class="retangulo-subscribe">
-                <img id="imagem-aviao" src="aviao.svg" alt="aviao">
-                <img id="imagem-pontilhado" src="pontilhadoaviao.svg" alt="">
-                <div id="conteudo-subscribe">
-                    <h4 class="titulo-se-inscreva"> Se inscreva</h4>
-
-                    <input class="input-email-footer" type="email" placeholder="Seu email">
-                    
-                    <button id="botao-subscribe">Inscreva-se</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="retangulo-footer"> 
-            <img class="linha-footer" src="Line.svg" alt="linha-footer">
-            <div id="redes-sociais-footer">
-                <p class="termos"> Termos & Condições <pre class="politica">       Política de Privacidade</pre>  </p>
-                    <a href=""><img class="item-redes" src="001-facebook.svg" alt="facebook"></a>
-                    <a href=""><img class="item-redes" src="003-twitter.svg" alt="twitter"></a>
-                    <a href=""><img class="item-redes" src="004-instagram.svg" alt="instagram"></a>
-            </div>
-        </div>
+        <footer class="footer">
         
+          <div class="retangulo-subscribe">
+            <img id="imagem-aviao" class="img-fluid" src="aviao.svg" alt="aviao">
+            <div id="conteudo-subscribe">
+                <h4 class="titulo-se-inscreva"> Se inscreva</h4>
 
-    </footer>
-    
+                <input class="input-email-footer" type="email" placeholder="Seu email">
+                
+                <button id="botao-subscribe" class="btn">Inscreva-se</button>
+            </div>
+          </div>
+          <div class="retangulo-footer"> 
+              <img class="linha-footer img-fluid" src="Line.svg" alt="linha-footer">
+              <div id="redes-sociais-footer" class="row" style="max-width:85.1rem;">
+                  <p class="termos col-lg-3"> Termos & Condições <pre class="politica col-lg-2.5">Política Privacidade </pre>  </p>
+                      <a href=""><img class="item-redes-footer" src="001-facebook.svg" alt="facebook"></a>
+                      <a href=""><img class="item-redes-footer" src="003-twitter.svg" alt="twitter"></a>
+                      <a href=""><img class="item-redes-footer" src="004-instagram.svg" alt="instagram"></a>
+              </div>
+          </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
