@@ -18,7 +18,7 @@ html, body
 
 .cabecalho{
     position: relative;
-    background-image: url("image1.svg"); 
+    background-image: url("imagem1.png"); 
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: top center; 
