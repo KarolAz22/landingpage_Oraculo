@@ -163,11 +163,19 @@ html, body
     align-items:center;
     font-family: 'Poppins';
     justify-content: space-between;
-    padding-top: 5%;
+    padding-top: 11%;
 }
 
+#seta {
+    padding: 20px;
+    box-shadow: 2px -2px 0 1px #000 inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(45deg);
+  }
+
 .oraculo-imagem{
-   padding-bottom: 5%;
+   padding-bottom: 10%;
 }
 
 
@@ -389,6 +397,7 @@ html, body
     margin-right: 0;
     font-size: 2.5rem;
     font-family: 'Poppins';
+    padding-top: 4%;
 }
 
 .elipse-branca{
@@ -440,6 +449,8 @@ html, body
     justify-content: center;
     padding-top: 4%;
     color: #FFFFFF;
+    padding-bottom: 5%;
+    margin-left: 1%;
 }
 
 .base-sobre-nos{
