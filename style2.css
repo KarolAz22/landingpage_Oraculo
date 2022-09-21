@@ -331,7 +331,7 @@ html, body
 }
 
 .caixa-ist{
-    width: 18rem;
+    width: 17.6rem;
     height: 16.625rem;
     margin-right: 13%;
     background: #FFFFFF;
@@ -364,7 +364,12 @@ html, body
     font-size: 1.2rem;
     color: #EE3147;
     margin-left: 8%;
+}
+
+.botao-saiba-mais-doenca:hover{
     text-decoration: none;
+    color:#F8835E;
+
 }
 
 #sobre-nos{
